@@ -1,4 +1,4 @@
-package SeleniumProject1;
+package com.seraj.automation;
 
 import java.util.List;
 
@@ -7,22 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class L0_Locator {
-	public static void main(String[] args) throws InterruptedException {
-//		launch chrome driver
-		String driverName = "webdriver.chrome.driver";
-		String driverPath = "C:\\Users\\mdser.SERAJ\\Library\\Selenium WebDriver\\ChromeDriver\\chromedriver-win64\\chromedriver.exe";
-		System.setProperty(driverName, driverPath);
+public class L01_Locator {
 
-		WebDriver driver = new ChromeDriver();
-
-//		locatorBasic(driver);
-
-//		cssLocator(driver);
-
-//		
-
-	}
 	public static void locatorBasic(WebDriver driver) throws InterruptedException {
 		// open sauce demo web page
 		driver.get("http:\\www.saucedemo.com");
@@ -55,5 +41,20 @@ public class L0_Locator {
 
 //				driver.quit();
 	}
-	
+
+	public static void main(String[] args) throws InterruptedException {
+//		launch chrome driver
+		String driverName = "webdriver.chrome.driver";
+		String driverPath = "C:\\Users\\mdser.SERAJ\\Library\\Selenium WebDriver\\ChromeDriver\\chromedriver-win64\\chromedriver.exe";
+		System.setProperty(driverName, driverPath);
+
+		WebDriver driver = new ChromeDriver();
+
+//		locatorBasic(driver);
+
+//		cssLocator(driver);
+
+//		
+
+	}
 }

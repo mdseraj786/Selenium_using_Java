@@ -1,4 +1,4 @@
-package SeleniumProject1;
+package com.seraj.automation;
 
 import java.awt.AWTException;
 import java.awt.Robot;

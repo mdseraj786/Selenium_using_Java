@@ -1,4 +1,4 @@
-package SeleniumProject1;
+package com.seraj.automation;
 
 import java.io.IOException;
 import java.util.ArrayList;

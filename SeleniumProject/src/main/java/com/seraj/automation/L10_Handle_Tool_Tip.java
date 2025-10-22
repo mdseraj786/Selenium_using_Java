@@ -1,4 +1,4 @@
-package SeleniumProject1;
+package com.seraj.automation;
 
 import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;

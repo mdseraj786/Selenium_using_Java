@@ -1,4 +1,4 @@
-package SeleniumProject1;
+package com.seraj.automation;
 
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;

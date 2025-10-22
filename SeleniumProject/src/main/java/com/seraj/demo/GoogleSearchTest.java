@@ -1,4 +1,4 @@
-package demo;
+package com.seraj.demo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
